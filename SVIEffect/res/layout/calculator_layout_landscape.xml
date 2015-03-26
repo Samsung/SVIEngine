@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/calculator_layout_landscape"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >	    
+    
+    <!-- Land Scape Layout -->
+    
+    <View 
+        android:layout_width="640dip"
+        android:layout_height="216dip"
+        android:paddingTop="144dip"
+        android:paddingLeft="0dip"
+        android:id="@+id/calculator_pannel_landscape"/>   	
+        
+    <View 
+        android:layout_width="110dip"
+        android:layout_height="16dip"
+        android:paddingTop="128dip"
+        android:paddingLeft="0dip"
+        android:id="@+id/calculator_handle_landscape"/>   	
+	    
+    
+    <!-- 1st Raw 7 buttons -->
+    
+    <View 
+	    android:paddingLeft="27dip"
+	    android:paddingTop="156dip"
+	    android:layout_width="71dip"
+	    android:layout_height="32dip"			
+	    android:id="@+id/cno_1_land"/>        
+	    
+    <View 
+	    android:paddingLeft="109dip"
+	    android:paddingTop="156dip"
+	    android:layout_width="71dip"
+	    android:layout_height="32dip"			
+	    android:id="@+id/cno_2_land"/>        
+	    
+    <View 
+	    android:paddingLeft="191dip"
+	    android:paddingTop="156dip"
+	    android:layout_width="71dip"
+	    android:layout_height="32dip"			
+	    android:id="@+id/cno_3_land"/>      
+   	       	
+    <View 
+	    android:paddingLeft="295dip"
+	    android:paddingTop="156dip"
+	    android:layout_width="71dip"
+	    android:layout_height="32dip"			
+	    android:id="@+id/cno_4_land"/>    
+	
+    <View 
+	    android:paddingLeft="377dip"
+	    android:paddingTop="156dip"
+	    android:layout_width="71dip"
+	    android:layout_height="32dip"			
+	    android:id="@+id/cno_5_land"/>
+    
+    <View 
+	    android:paddingLeft="459dip"
+	    android:paddingTop="156dip"
+	    android:layout_width="71dip"
+	    android:layout_height="32dip"			
+	    android:id="@+id/cno_6_land"/>
+    
+    <View 
+	    android:paddingLeft="541dip"
+	    android:paddingTop="156dip"
+	    android:layout_width="71dip"
+	    android:layout_height="32dip"			
+	    android:id="@+id/cno_7_land"/>
+		
+    <!-- 2nd Raw 7 buttons -->
+    
+    <View 
+	    android:paddingLeft="27dip"
+	    android:paddingTop="196dip"
+	    android:layout_width="71dip"
+	    android:layout_height="32dip"			
+	    android:id="@+id/cno_8_land"/>        
+	    
+    <View 
+	    android:paddingLeft="109dip"
+	    android:paddingTop="196dip"
+	    android:layout_width="71dip"
+	    android:layout_height="32dip"			
+	    android:id="@+id/cno_9_land"/>        
+	    
+    <View 
+	    android:paddingLeft="191dip"
+	    android:paddingTop="196dip"
+	    android:layout_width="71dip"
+	    android:layout_height="32dip"			
+	    android:id="@+id/cno_10_land"/>      
+   	       	
+    <View 
+	    android:paddingLeft="295dip"
+	    android:paddingTop="196dip"
+	    android:layout_width="71dip"
+	    android:layout_height="32dip"			
+	    android:id="@+id/cno_11_land"/>    
+	
+    <View 
+	    android:paddingLeft="377dip"
+	    android:paddingTop="196dip"
+	    android:layout_width="71dip"
+	    android:layout_height="32dip"			
+	    android:id="@+id/cno_12_land"/>
+    
+    <View 
+	    android:paddingLeft="459dip"
+	    android:paddingTop="196dip"
+	    android:layout_width="71dip"
+	    android:layout_height="32dip"			
+	    android:id="@+id/cno_13_land"/>
+    
+    <View 
+	    android:paddingLeft="541dip"
+	    android:paddingTop="196dip"
+	    android:layout_width="71dip"
+	    android:layout_height="32dip"			
+	    android:id="@+id/cno_14_land"/>
+    
+    <!-- 3rd Raw 7 buttons -->
+    
+    <View 
+	    android:paddingLeft="27dip"
+	    android:paddingTop="236dip"
+	    android:layout_width="71dip"
+	    android:layout_height="32dip"			
+	    android:id="@+id/cno_15_land"/>        
+	    
+    <View 
+	    android:paddingLeft="109dip"
+	    android:paddingTop="236dip"
+	    android:layout_width="71dip"
+	    android:layout_height="32dip"			
+	    android:id="@+id/cno_16_land"/>        
+	    
+    <View 
+	    android:paddingLeft="191dip"
+	    android:paddingTop="236dip"
+	    android:layout_width="71dip"
+	    android:layout_height="32dip"			
+	    android:id="@+id/cno_17_land"/>      
+   	       	
+    <View 
+	    android:paddingLeft="295dip"
+	    android:paddingTop="236dip"
+	    android:layout_width="71dip"
+	    android:layout_height="32dip"			
+	    android:id="@+id/cno_18_land"/>    
+	
+    <View 
+	    android:paddingLeft="377dip"
+	    android:paddingTop="236dip"
+	    android:layout_width="71dip"
+	    android:layout_height="32dip"			
+	    android:id="@+id/cno_19_land"/>
+    
+    <View 
+	    android:paddingLeft="459dip"
+	    android:paddingTop="236dip"
+	    android:layout_width="71dip"
+	    android:layout_height="32dip"			
+	    android:id="@+id/cno_20_land"/>
+    
+    <View 
+	    android:paddingLeft="541dip"
+	    android:paddingTop="236dip"
+	    android:layout_width="71dip"
+	    android:layout_height="32dip"			
+	    android:id="@+id/cno_21_land"/>
+    
+    <!-- 4th Raw 7 buttons -->
+	
+	<View 
+	    android:paddingLeft="27dip"
+	    android:paddingTop="276dip"
+	    android:layout_width="71dip"
+	    android:layout_height="32dip"			
+	    android:id="@+id/cno_22_land"/>        
+	    
+    <View 
+	    android:paddingLeft="109dip"
+	    android:paddingTop="276dip"
+	    android:layout_width="71dip"
+	    android:layout_height="32dip"			
+	    android:id="@+id/cno_23_land"/>        
+	    
+    <View 
+	    android:paddingLeft="191dip"
+	    android:paddingTop="276dip"
+	    android:layout_width="71dip"
+	    android:layout_height="32dip"			
+	    android:id="@+id/cno_24_land"/>      
+   	       	
+    <View 
+	    android:paddingLeft="295dip"
+	    android:paddingTop="276dip"
+	    android:layout_width="71dip"
+	    android:layout_height="32dip"			
+	    android:id="@+id/cno_25_land"/>    
+	
+    <View 
+	    android:paddingLeft="377dip"
+	    android:paddingTop="276dip"
+	    android:layout_width="71dip"
+	    android:layout_height="32dip"			
+	    android:id="@+id/cno_26_land"/>
+    
+    <View 
+	    android:paddingLeft="459dip"
+	    android:paddingTop="276dip"
+	    android:layout_width="71dip"
+	    android:layout_height="32dip"			
+	    android:id="@+id/cno_27_land"/>
+    
+    <View 
+	    android:paddingLeft="541dip"
+	    android:paddingTop="276dip"
+	    android:layout_width="71dip"
+	    android:layout_height="32dip"			
+	    android:id="@+id/cno_28_land"/>
+    
+    <!-- 5th Raw 7 buttons -->
+    
+    <View 
+	    android:paddingLeft="27dip"
+	    android:paddingTop="316dip"
+	    android:layout_width="71dip"
+	    android:layout_height="32dip"			
+	    android:id="@+id/cno_29_land"/>        
+	    
+    <View 
+	    android:paddingLeft="109dip"
+	    android:paddingTop="316dip"
+	    android:layout_width="71dip"
+	    android:layout_height="32dip"			
+	    android:id="@+id/cno_30_land"/>        
+	    
+    <View 
+	    android:paddingLeft="191dip"
+	    android:paddingTop="316dip"
+	    android:layout_width="71dip"
+	    android:layout_height="32dip"			
+	    android:id="@+id/cno_31_land"/>      
+   	       	
+    <View 
+	    android:paddingLeft="295dip"
+	    android:paddingTop="316dip"
+	    android:layout_width="71dip"
+	    android:layout_height="32dip"			
+	    android:id="@+id/cno_32_land"/>    
+	
+    <View 
+	    android:paddingLeft="377dip"
+	    android:paddingTop="316dip"
+	    android:layout_width="71dip"
+	    android:layout_height="32dip"			
+	    android:id="@+id/cno_33_land"/>
+    
+    <View 
+	    android:paddingLeft="459dip"
+	    android:paddingTop="316dip"
+	    android:layout_width="71dip"
+	    android:layout_height="32dip"			
+	    android:id="@+id/cno_34_land"/>
+    
+    <View 
+	    android:paddingLeft="541dip"
+	    android:paddingTop="316dip"
+	    android:layout_width="71dip"
+	    android:layout_height="32dip"			
+	    android:id="@+id/cno_35_land"/>
+</AbsoluteLayout>
+

@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.github.sviengine"
+      android:versionCode="1"
+      android:versionName="1.0">
+      
+    <supports-gl-texture android:name="GL_AMD_compressed_ATC_texture" />
+    
+    <uses-sdk android:minSdkVersion="9"/>
+    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> 
+        
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        
+         <activity android:name="com.github.sviengine.testcase.TransitionAnimationActivity" android:theme="@android:style/Theme.NoTitleBar"
+        		  android:label="Transition Test"
+        		  android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+ 
+         
+         
+         <!-- 
+         <activity android:name="SVIEngine"
+        		  android:label="@string/app_name" android:configChanges="orientation">
+       
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> 
+        
+         
+        <activity android:name=".performance.PerformanceTestActivity" android:theme="@android:style/Theme.NoTitleBar"
+        		  android:configChanges="orientation|keyboardHidden" android:label="Performance Test">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".unittest.PathSlideActivity" android:theme="@android:style/Theme.NoTitleBar"
+        		  android:configChanges="orientation|keyboardHidden" android:label="Path Poly Test">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".unittest.FilterSlideActivity" android:theme="@android:style/Theme.NoTitleBar"
+        		  android:configChanges="orientation|keyboardHidden" android:label="GPU Image Filter Test">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".unittest.PathFilterSlideActivity" android:theme="@android:style/Theme.NoTitleBar"
+        		  android:configChanges="orientation|keyboardHidden" android:label="Lock Screen - PathFilter">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".unittest.SpotFilterSlideActivity" android:theme="@android:style/Theme.NoTitleBar"
+        		  android:configChanges="orientation|keyboardHidden" android:label="Lock Screen - SpotFilter">
+            
+            <intent-filter>
+    			<action android:name="com.github.airview.HOVER" />
+			</intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".unittest.MonoFilterSlideActivity" android:theme="@android:style/Theme.NoTitleBar"
+        		  android:configChanges="orientation|keyboardHidden" android:label="Lock Screen - MonoFilter">
+            
+            <intent-filter>
+    			<action android:name="com.github.airview.HOVER" />
+			</intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+ -->
+<!--        
+            
+        <activity android:name=".testcase.PropertyTestActivity" android:theme="@android:style/Theme.NoTitleBar"
+        		  android:configChanges="orientation|keyboardHidden" android:label="Explicit Implicit Test">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+         
+        <activity android:name=".testcase.NoneAniPropertyActivity" android:theme="@android:style/Theme.NoTitleBar"
+        		  android:configChanges="orientation|keyboardHidden" android:label="None Animatable Test">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".testcase.AnimationListenerTestActivity" android:theme="@android:style/Theme.NoTitleBar"
+        		  android:configChanges="orientation|keyboardHidden" android:label="AnimationListener Test">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity> -->
+        
+            
+<!--         <activity android:name=".unittest.PureGLSurfaceViewActivity" android:theme="@android:style/Theme.NoTitleBar"
+        		  android:configChanges="orientation|keyboardHidden" android:label="A Slide Memory(PureGLSurfaceView) Test">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".unittest.JustOneSlideActivity" android:theme="@android:style/Theme.NoTitleBar"
+        		  android:configChanges="orientation|keyboardHidden" android:label="A Slide Memory(Slide) Test">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity> -->
+        
+<!--         <activity android:theme="@android:style/Theme.NoTitleBar"
+        		  android:configChanges="orientation|keyboardHidden" android:label="Post Effect Test" android:name=".unittest.CapturedPostEffectActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity> -->
+        
+ <!--         <activity android:name=".testcase.TransitionAnimationActivity" android:theme="@android:style/Theme.NoTitleBar"
+        		  android:configChanges="orientation|keyboardHidden" android:label="Transition Animation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+-->       
+
+		<!-- <activity android:name=".unittest.CompressActivity" android:theme="@android:style/Theme.NoTitleBar"
+        		  android:configChanges="orientation|keyboardHidden" android:label="Check Compress Texture" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+         
+
+		<activity android:name=".unittest.NormalMapActivity" android:theme="@android:style/Theme.NoTitleBar"
+        		  android:configChanges="orientation|keyboardHidden" android:label="Dialer Using NormalMap" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        
+		<activity android:name=".unittest.NonNormalMapActivity" android:theme="@android:style/Theme.NoTitleBar"
+        		  android:configChanges="orientation|keyboardHidden" android:label="Dialer Non-NormalMap" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity> -->
+        
+		<!--  
+        <activity android:name=".unittest.DeformationActivity" android:theme="@android:style/Theme.NoTitleBar"
+        		  android:configChanges="orientation|keyboardHidden" android:label="Dialer Deformation Demo" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        -->
+        
+<!--   
+        <activity android:name=".unittest.ScaleToFitTestActivity" android:theme="@android:style/Theme.NoTitleBar"
+        		  android:configChanges="orientation|keyboardHidden" android:label="Scale To Fit Test">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+-->        
+        
+<!--          <activity android:theme="@android:style/Theme.NoTitleBar"
+        		  android:configChanges="orientation|keyboardHidden" android:label="Scale Capture Test" android:name=".unittest.ScaleCaptureTestActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity> -->
+        
+<!--         <activity android:name=".unittest.ScreenRotationTestActivity" android:theme="@android:style/Theme.NoTitleBar"
+        		  android:configChanges="orientation|keyboardHidden" android:label="Screen Rotation Test">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity> -->
+        
+        <!-- <activity android:name=".unittest.PageConeCurveEffectActivity" android:theme="@android:style/Theme.NoTitleBar"
+        		  android:configChanges="orientation|keyboardHidden" android:label="Page Cone Curve Effect Test">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>  -->
+         <!--
+        <activity android:name=".unittest.SpriteAnimationTestActivity" android:theme="@android:style/Theme.NoTitleBar"
+        		  android:configChanges="orientation|keyboardHidden" android:label="SpriteAnimation Test">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+      	-->
+		<!--         
+		<activity android:name=".unittest.TextInputTestActivity" android:theme="@android:style/Theme.NoTitleBar"
+        		  android:configChanges="orientation|keyboardHidden" android:label="Text Input Test">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity> 
+		-->
+        
+		<!--         
+		<activity android:name=".unittest.TouchMoveTestActivity" android:theme="@android:style/Theme.NoTitleBar"
+        		  android:configChanges="orientation|keyboardHidden" android:label="Touch Move Test">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".unittest.PageTurnEffectActivity" android:theme="@android:style/Theme.NoTitleBar"
+        		  android:configChanges="orientation|keyboardHidden" android:label="Page Turn Effect Test">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        
+		<activity android:name=".unittest.PageExplodeEffectActivity" android:theme="@android:style/Theme.NoTitleBar"
+        		  android:configChanges="orientation|keyboardHidden" android:label="Page Explode Effect Test">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        
+		<activity android:name=".unittest.PageTwistEffectActivity" android:theme="@android:style/Theme.NoTitleBar"
+        		  android:configChanges="orientation|keyboardHidden" android:label="Page Twist Effect Test">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity> 
+ 
+        <activity android:name=".slidetestapplication.JacketViewTestActivity" android:theme="@android:style/Theme.NoTitleBar"
+        		  android:configChanges="orientation|keyboardHidden" android:label="Slide Test Application/JacketView">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>    
+		-->
+		        
+        <!-- 
+        <activity android:name=".nslidetest.guuuuActivity" android:theme="@android:style/Theme.NoTitleBar"
+        		  android:configChanges="orientation|keyboardHidden" android:label="nSlideTest/guuuu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        -->
+        
+        <!-- 
+		<activity android:name=".unittest.SceneNodeTestActivity" 
+		    android:screenOrientation="landscape"
+		    android:theme="@android:style/Theme.NoTitleBar" android:label="3D Scene Test" android:configChanges="orientation|keyboardHidden">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"></action>
+				<category android:name="android.intent.category.SAMPLE_CODE"></category>
+			</intent-filter>
+		</activity>
+		-->
+		<!-- 
+		<activity android:name=".unittest.CollageShowActivity" 
+		    android:screenOrientation="landscape"
+		    android:theme="@android:style/Theme.NoTitleBar" android:label="Collage Show" android:configChanges="orientation|keyboardHidden">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"></action>
+				<category android:name="android.intent.category.SAMPLE_CODE"></category>
+			</intent-filter>
+		</activity>  
+         -->
+        <!-- <activity android:name="com.github.sviengine.unittest.ParticleEffectTestActivity" android:theme="@android:style/Theme.NoTitleBar" 
+            android:label="ParticleEffect Test" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.SAMPLE_CODE"/>
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="com.github.sviengine.unittest.NinePatchTestActivity" android:theme="@android:style/Theme.NoTitleBar" 
+            android:label="NinePatch Test" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.SAMPLE_CODE"/>
+            </intent-filter>
+        </activity> -->
+        <!--
+        <activity android:name=".unittest.SpaceTestActivity" android:theme="@android:style/Theme.NoTitleBar" 
+            android:label="Space Test" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        -->
+    </application>
+</manifest>

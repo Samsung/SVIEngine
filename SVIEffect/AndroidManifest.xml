@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.github.svieffect"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <supports-gl-texture android:name="GL_IMG_texture_compression_pvrtc" />
+    
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+    
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+	<uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_remote"
+        android:label="@string/app_name" >
+        
+        <activity
+            android:name="com.github.svieffect.SVIEffect"
+            android:label="@string/app_name" 
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>       
+
+        <activity android:name="com.github.svieffect.sample.CalculatorSample" android:theme="@android:style/Theme.NoTitleBar"
+        		  android:configChanges="orientation|screenSize" android:label="Calculator" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />                
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+                
+        <activity android:name="com.github.svieffect.sample.RemoteControllerSample" android:theme="@android:style/Theme.NoTitleBar"
+        		  android:configChanges="orientation|screenSize" android:label="RemoteController" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />                
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="com.github.svieffect.sample.SpeakerSample" android:theme="@android:style/Theme.NoTitleBar"
+        		  android:configChanges="orientation|screenSize" android:label="Speaker - DJ" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+              			
+        <activity android:name="com.github.svieffect.sample.DialerSample" android:theme="@android:style/Theme.NoTitleBar"
+        		  android:configChanges="orientation|screenSize" android:label="Dialer - Ripple" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />                
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.github.svieffect.sample.PhotoEditorSample" android:theme="@android:style/Theme.NoTitleBar"
+        		  android:configChanges="orientation|screenSize" android:label="PhotoEditor - CopyAndPaste1" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />                
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="com.github.svieffect.sample.FXGPhotoEditorSample" android:theme="@android:style/Theme.NoTitleBar"
+        		  android:configChanges="orientation|screenSize" android:label="FXGPhotoEditor - CopyAndPaste2" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />                
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        	
+	</application>
+
+</manifest>

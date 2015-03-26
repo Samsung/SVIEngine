@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/smartremote_layout_landscape"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >	    
+    
+    <!-- Land Scape Layout -->
+	    
+    <View 
+	    android:paddingLeft="29dip"
+	    android:paddingTop="233dip"
+	    android:layout_width="106dip"
+	    android:layout_height="298dip"			
+	    android:id="@+id/channel_btn_land"/>        
+       	
+    <View 
+	    android:paddingLeft="225dip"
+	    android:paddingTop="233dip"
+	    android:layout_width="106dip"
+	    android:layout_height="298dip"					
+	    android:id="@+id/volume_btn_land"/>
+	   
+	
+		
+	
+</AbsoluteLayout>
+

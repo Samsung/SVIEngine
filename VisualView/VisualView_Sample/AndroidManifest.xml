@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.github.visualview"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
+    <application android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:allowBackup="true">
+        <activity android:name="com.github.visualview.sample.main.SV_Sample_Main"
+        		  android:label="@string/app_name"
+        		  android:configChanges="orientation">
+       
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:label="Sample List"	  
+            android:name="com.github.visualview.sample.main.SampleList" 
+            android:configChanges="orientation"> 
+        </activity>
+        
+        <!-- ===========================Sample Lists==================================== -->
+        
+        <activity
+            android:name="com.github.visualview.sample.list.AnimationSetActivity" 
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity
+            android:name="com.github.visualview.sample.list.BasicAnimationActivity" 
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>        
+        <activity
+            android:name="com.github.visualview.sample.list.EnableLogActivity" 
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>        
+        <activity
+            android:name="com.github.visualview.sample.list.ExplicitAnimationListenerActivity" 
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>        
+        <activity
+            android:name="com.github.visualview.sample.list.HelloVisualViewActivity" 
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>        
+        <activity
+            android:name="com.github.visualview.sample.list.ImageHandleActivity" 
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>        
+        <activity
+            android:name="com.github.visualview.sample.list.ImplicitAnimation_One_Activity" 
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>        
+        <activity
+            android:name="com.github.visualview.sample.list.ImplicitAnimation_Two_Activity" 
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>        
+        <activity
+            android:name="com.github.visualview.sample.list.ImplicitAnimationListenerActivity" 
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>        
+        <activity
+            android:name="com.github.visualview.sample.list.KeyframeAnimationActivity" 
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>        
+        <activity
+            android:name="com.github.visualview.sample.list.PropertySetActivity" 
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>        
+        <activity
+            android:name="com.github.visualview.sample.list.SpriteAnimationActivity" 
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>        
+        <activity
+            android:name="com.github.visualview.sample.list.TransitionAnimationActivity" 
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>        
+        
+        
+        <!-- ===========================Sample Lists End==================================== -->
+        
+    </application>
+</manifest>

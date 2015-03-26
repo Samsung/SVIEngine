@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/speaker_layout_funcky"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >	    
+    
+	<!-- Portraits Layout -->
+	<View 
+	    android:paddingLeft="135dip"
+	    android:paddingTop="275dip"
+	    android:layout_width="90dip"
+	    android:layout_height="90dip"
+	    android:id="@+id/fx_size"/>
+	
+	<View 
+	    android:paddingLeft="30dip"
+	    android:paddingTop="170dip"
+	    android:layout_width="300dip"
+	    android:layout_height="300dip"	
+	    android:id="@+id/bottom_base"/>
+	    
+	<View 
+	    android:paddingLeft="72dip"
+	    android:paddingTop="212dip"
+	    android:layout_width="216dip"
+	    android:layout_height="216dip"
+	    android:id="@+id/top_base"/>
+	    
+	<View 
+	    android:paddingLeft="0dip"
+	    android:paddingTop="0dip"
+	    android:layout_width="360dip"
+	    android:layout_height="640dip"
+	    android:id="@+id/all_base"/>
+	
+	<!-- Mask A Type -->
+	<View 
+	    android:paddingLeft="48dip"
+	    android:paddingTop="109dip"
+	    android:layout_width="0dip"
+	    android:layout_height="0dip"
+	    android:id="@+id/mask_a_first_center"/>
+	
+	<View 
+	    android:paddingLeft="-26dip"
+	    android:paddingTop="587dip"
+	    android:layout_width="0dip"
+	    android:layout_height="0dip"
+	    android:id="@+id/mask_a_second_center"/>
+	
+	<View 
+	    android:paddingLeft="362dip"
+	    android:paddingTop="504dip"
+	    android:layout_width="0dip"
+	    android:layout_height="0dip"
+	    android:id="@+id/mask_a_third_center"/>
+	
+	<View 
+	    android:paddingLeft="280dip"
+	    android:paddingTop="628dip"
+	    android:layout_width="0dip"
+	    android:layout_height="0dip"
+	    android:id="@+id/mask_a_fourth_center"/>
+	
+	<!-- Mask B Type -->
+	<View 
+	    android:paddingLeft="327dip"
+	    android:paddingTop="70dip"
+	    android:layout_width="0dip"
+	    android:layout_height="0dip"
+	    android:id="@+id/mask_b_first_center"/>
+	
+	<View 
+	    android:paddingLeft="16dip"
+	    android:paddingTop="489dip"
+	    android:layout_width="0dip"
+	    android:layout_height="0dip"
+	    android:id="@+id/mask_b_second_center"/>
+	
+	<View 
+	    android:paddingLeft="362dip"
+	    android:paddingTop="395dip"
+	    android:layout_width="0dip"
+	    android:layout_height="0dip"
+	    android:id="@+id/mask_b_third_center"/>
+	
+	<View 
+	    android:paddingLeft="388dip"
+	    android:paddingTop="556dip"
+	    android:layout_width="0dip"
+	    android:layout_height="0dip"
+	    android:id="@+id/mask_b_fourth_center"/>
+	
+	<!-- Mask C Type -->
+	<View 
+	    android:paddingLeft="190dip"
+	    android:paddingTop="52dip"
+	    android:layout_width="0dip"
+	    android:layout_height="0dip"
+	    android:id="@+id/mask_c_first_center"/>
+	
+	<View 
+	    android:paddingLeft="64dip"
+	    android:paddingTop="138dip"
+	    android:layout_width="0dip"
+	    android:layout_height="0dip"
+	    android:id="@+id/mask_c_second_center"/>
+	
+	<View 
+	    android:paddingLeft="-21dip"
+	    android:paddingTop="498dip"
+	    android:layout_width="0dip"
+	    android:layout_height="0dip"
+	    android:id="@+id/mask_c_third_center"/>
+	
+	<View 
+	    android:paddingLeft="378dip"
+	    android:paddingTop="558dip"
+	    android:layout_width="0dip"
+	    android:layout_height="0dip"
+	    android:id="@+id/mask_c_fourth_center"/>
+	
+	<!-- Mask D Type -->
+	<View 
+	    android:paddingLeft="37dip"
+	    android:paddingTop="46dip"
+	    android:layout_width="0dip"
+	    android:layout_height="0dip"
+	    android:id="@+id/mask_d_first_center"/>
+	
+	<View 
+	    android:paddingLeft="156dip"
+	    android:paddingTop="643dip"
+	    android:layout_width="0dip"
+	    android:layout_height="0dip"
+	    android:id="@+id/mask_d_second_center"/>
+	
+	<View 
+	    android:paddingLeft="318dip"
+	    android:paddingTop="492dip"
+	    android:layout_width="0dip"
+	    android:layout_height="0dip"
+	    android:id="@+id/mask_d_third_center"/>
+	
+	<View 
+	    android:paddingLeft="372dip"
+	    android:paddingTop="589dip"
+	    android:layout_width="0dip"
+	    android:layout_height="0dip"
+	    android:id="@+id/mask_d_fourth_center"/>
+	
+	<!-- Mask E Type -->
+	<View 
+	    android:paddingLeft="24dip"
+	    android:paddingTop="78dip"
+	    android:layout_width="0dip"
+	    android:layout_height="0dip"
+	    android:id="@+id/mask_e_first_center"/>
+	
+	<View 
+	    android:paddingLeft="42dip"
+	    android:paddingTop="443dip"
+	    android:layout_width="0dip"
+	    android:layout_height="0dip"
+	    android:id="@+id/mask_e_second_center"/>
+	
+	<View 
+	    android:paddingLeft="100dip"
+	    android:paddingTop="540dip"
+	    android:layout_width="0dip"
+	    android:layout_height="0dip"
+	    android:id="@+id/mask_e_third_center"/>
+	
+	<View 
+	    android:paddingLeft="372dip"
+	    android:paddingTop="550dip"
+	    android:layout_width="0dip"
+	    android:layout_height="0dip"
+	    android:id="@+id/mask_e_fourth_center"/>
+	 
+</AbsoluteLayout>
+

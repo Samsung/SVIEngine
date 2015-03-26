@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialer_layout_landscape"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >	    
+    
+    <!-- Land Scape Layout -->
+    
+    <View 
+        android:layout_width="640dip"
+        android:layout_height="271dip"
+        android:paddingTop="89dip"
+        android:paddingLeft="0dip"
+        android:id="@+id/dial_pannel_landscape"/>   	
+	    
+    <View 
+	    android:paddingLeft="6dip"
+	    android:paddingTop="95dip"
+	    android:layout_width="100dip"
+	    android:layout_height="62dip"			
+	    android:id="@+id/no_1_land"/>        
+   	       	
+	<View 
+	    android:paddingLeft="110dip"
+	    android:paddingTop="95dip"
+	    android:layout_width="100dip"
+	    android:layout_height="62dip"			
+	    android:id="@+id/no_2_land"/>
+	   
+	<View 
+	    android:paddingLeft="214dip"
+	    android:paddingTop="95dip"
+	    android:layout_width="100dip"
+	    android:layout_height="62dip"			
+	    android:id="@+id/no_3_land"/>
+		
+	<View
+	    android:paddingLeft="6dip"
+	    android:paddingTop="161dip"
+	    android:layout_width="100dip"
+	    android:layout_height="62dip"			
+	    android:id="@+id/no_4_land"/>
+	
+	<View 
+	    android:paddingLeft="110dip"
+	    android:paddingTop="161dip"
+	    android:layout_width="100dip"
+	    android:layout_height="62dip"			
+	    android:id="@+id/no_5_land"/>
+	   
+	<View 
+	    android:paddingLeft="214dip"
+	    android:paddingTop="161dip"
+	    android:layout_width="100dip"
+	    android:layout_height="62dip"			
+	    android:id="@+id/no_6_land"/>
+	
+	<View 
+	    android:paddingLeft="6dip"
+	    android:paddingTop="227dip"
+	    android:layout_width="100dip"
+	    android:layout_height="62dip"			
+	    android:id="@+id/no_7_land"/>
+	
+	<View 
+	    android:paddingLeft="110dip"
+	    android:paddingTop="227dip"
+	    android:layout_width="100dip"
+	    android:layout_height="62dip"			
+	    android:id="@+id/no_8_land"/>
+	   
+	<View 
+	    android:paddingLeft="214dip"
+	    android:paddingTop="227dip"
+	    android:layout_width="100dip"
+	    android:layout_height="62dip"			
+	    android:id="@+id/no_9_land"/>
+	
+	<View
+	    android:paddingLeft="6dip"
+	    android:paddingTop="293dip"
+	    android:layout_width="100dip"
+	    android:layout_height="62dip"			
+	    android:id="@+id/no_10_land"/>
+	
+	<View 
+	    android:paddingLeft="110dip"
+	    android:paddingTop="293dip"
+	    android:layout_width="100dip"
+	    android:layout_height="62dip"			
+	    android:id="@+id/no_11_land"/>
+	   
+	<View 
+	    android:paddingLeft="214dip"
+	    android:paddingTop="293dip"
+	    android:layout_width="100dip"
+	    android:layout_height="62dip"			
+	    android:id="@+id/no_12_land"/>
+	
+	<View 
+	    android:paddingLeft="318dip"
+	    android:paddingTop="293dip"
+	    android:layout_width="103dip"
+	    android:layout_height="62dip"			
+	    android:id="@+id/no_13_land"/>
+	
+	<View 
+	    android:paddingLeft="425dip"
+	    android:paddingTop="293dip"
+	    android:layout_width="103dip"
+	    android:layout_height="62dip"			
+	    android:id="@+id/no_14_land"/>
+	   
+	<View 
+	    android:paddingLeft="532dip"
+	    android:paddingTop="293dip"
+	    android:layout_width="103dip"
+	    android:layout_height="62dip"			
+	    android:id="@+id/no_15_land"/>	       
+		
+	
+</AbsoluteLayout>
+

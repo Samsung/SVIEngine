@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:scrollbars="vertical"
+	    android:scrollbarAlwaysDrawVerticalTrack="true"
+	    android:textSize="15dip">
+	
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Slide Size" />
+	
+	    <SeekBar
+	        android:id="@+id/iconsizebar"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" />
+	    
+	    <TextView
+	        android:id="@+id/iconsize"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="right"
+	        android:text="72" />
+	    
+	
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Duration" />
+	
+	    <SeekBar
+	        android:id="@+id/durationbar"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" />
+	
+	    <TextView
+	        android:id="@+id/duration"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity = "right"
+	        android:text="5000" />
+	    
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Corner Radius" />
+	
+	    <SeekBar
+	        android:id="@+id/cornerradbar"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" />
+	
+	    <TextView
+	        android:id="@+id/cornerradius"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity = "right"
+	        android:text="0" />
+	    
+	    <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Icon Quantity" />
+	
+	    <RadioGroup
+	        android:id = "@+id/quntityGroup"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:orientation="horizontal" >
+	        
+	        <RadioButton
+	            android:id="@+id/one"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="1 "
+	             />
+	
+	        <RadioButton
+	            android:id="@+id/fifty"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="50 "
+	             />
+	
+	        <RadioButton
+	            android:id="@+id/oneh"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="100 "
+	            />
+	
+	        <RadioButton
+	            android:id="@+id/twoh"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="200 "
+	            />
+	
+	        <RadioButton
+	            android:id="@+id/threeh"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="300 "
+	            />
+	    </RadioGroup>
+	    	
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:orientation="horizontal"
+	        >
+			<CheckBox
+	            android:id="@+id/lightcheck"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text=" Light  " />
+			
+			<CheckBox
+	            android:id="@+id/bgcheck"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text=" BG Color  " />
+	        <CheckBox
+	            android:id="@+id/blendaddcheck"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text=" Blend Add  " />
+	        
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:orientation="horizontal"
+	        >
+	        
+	        <CheckBox
+	            android:id="@+id/shadowcheck"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text=" Shadow  " />
+		    <CheckBox
+		        android:id="@+id/scaletofit"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text=" Scale to Fit (Matrix)"
+		        android:gravity="center"/>
+	    
+	    </LinearLayout>
+	    
+	
+	</LinearLayout>
+
+</ScrollView>

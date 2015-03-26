@@ -1,0 +1,19 @@
+Samsung VisualView
+
+This product includes software developed by
+SVV with contains the Apache License, Version 2.0(http://www.apache.org/).
+
+VisualView is rich animation framework for the 
+android applications and supports following type of animations
+1. Basic Animation
+2. Transition Animation
+3. Sprite Animation
+4. KeyFrame Animation
+5. Animation set
+
+SVV supports more then 85 animation effects.Applications can specify geometry, scene environment parameters 
+like lighting, projection method, rendering properties like blending, anti-aliasing, etc. Images can be texture 
+mapped onto geometry and can be animated implicitly or explicitly.
+
+More information can be found at http://developer.samsung.com/
+ 

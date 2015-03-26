@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SVI!</string>
+    <string name="app_name">SVI</string>
+    <string name="background_color">Background Color</string>
+    <string name="background_opacity">Background Opacity</string>
+    <string name="border_color">Border Color</string>
+    <string name="border_opacity">Border Opacity</string>
+    <string name="border_width">Border Width</string>
+    <string name="border_radius">Border Radius</string>
+    <string name="shadow_color">Shadow Color</string>
+    <string name="background">Background</string>
+    <string name="border">Border</string>
+    <string name="shadow">Shadow</string>
+    <string name="light">Light</string>
+    <string name="color">Color</string>
+    <string name="opacity">Opacity</string>
+    <string name="width">Width</string>
+    <string name="radius">Radius</string>
+    <string name="setprop">Performance Setting</string>
+</resources>

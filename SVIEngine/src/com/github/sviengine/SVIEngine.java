@@ -110,7 +110,7 @@ public class SVIEngine extends ListActivity {
     protected Intent browseIntent(String path) {
         Intent result = new Intent();
         result.setClass(this, SVIEngine.class);
-        result.putExtra("com.sec.android.SVIEngine.Path", path);
+        result.putExtra("com.github.SVIEngine.Path", path);
         return result;
     }
 
